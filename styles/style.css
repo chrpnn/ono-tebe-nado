@@ -29,10 +29,6 @@
   text-decoration: none;
 }
 
-.header__link {
-  text-decoration: underline;
-}
-
 .header__logo {
   justify-self: center;
 }
@@ -142,7 +138,7 @@
 
 .bet-button {
   width: 257px;
-  height: 52px;
+  min-height: 52px;
   color: #fff;
   border: 1px solid currentColor;
   background: transparent;
